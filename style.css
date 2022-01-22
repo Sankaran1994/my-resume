@@ -1,0 +1,65 @@
+html{
+    font-family: "Roboto",sans-serif;
+}
+
+@media screen and (max-device-width: 600px) {
+    .nameSection{
+        display: block;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-device-width: 600px) {
+    .nameSection{
+        display: block;
+        font-size: 30px;
+    }
+}
+
+.container{
+    width: 90%;
+    margin-top: 16px;
+}
+
+.picture_section{
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.personaldetail_secton{
+    display: inline;
+    
+}
+
+.workexperience_section{
+    display: inline;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.material-icons{
+    color: rgb(0,150,136);
+    margin-right: 16px;
+}
+
+.personal_description {
+    font-size: 15px;
+}
+
+.location_section div {
+    margin: 15px 0;
+}
+
+.row .col.l4 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
