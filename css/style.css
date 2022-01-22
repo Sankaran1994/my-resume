@@ -60,6 +60,24 @@ img{
 }
 
 h3{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+}
+i.material-icons.small {
+    position: relative;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.location_section div:last-child {
+    margin-bottom: 30px;
+}
+.progress{
+    border-radius: 10px;
+    height: 12px;
+}
+
+ul li {
+    padding: 0 36px;
 }
