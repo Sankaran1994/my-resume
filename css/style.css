@@ -81,3 +81,29 @@ i.material-icons.small {
 ul li {
     padding: 0 36px;
 }
+
+
+ul.language_section, ul.hobbies_section {
+    padding-left: 20px;;
+}
+ul.language_section li,  ul.hobbies_section li{
+    padding: 10px;
+    font-size: 18px;
+    display: inline;
+}
+
+ul.hobbies_section li{
+    display: block;
+}
+ .skill_section > ul > li:last-child, ul.hobbies_section > li:last-child{
+margin-bottom: 30px;
+}
+th {
+    text-align: center;
+    font-size: 25px;
+}
+
+td {
+    text-align: center;
+    font-size: 16px;
+}
