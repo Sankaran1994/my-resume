@@ -29,11 +29,7 @@ html{
 
 .personaldetail_secton{
     display: inline;
-    
-}
-
-.workexperience_section{
-    display: inline;
+    border-right: 8px solid #f5f5f5;
 }
 
 img{
@@ -106,4 +102,42 @@ th {
 td {
     text-align: center;
     font-size: 16px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+/* 2 ND section */
+.workexperience_section h2 {
+    font-size: 30px;
+    padding: 16px 0;
+    margin: 0;
+    padding-bottom: 0;
+}
+.fedivsection {
+    margin-left: 24px;
+}
+
+.fedivsection h5 {
+    font-size: 18px;
+    opacity: .60;
+}
+i.medium {
+    font-size: 3rem;
+}
+.Current {
+    background-color: rgb(0,150,136);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+span.experience {
+    position: relative;
+    vertical-align: super;
+}
+
+
+footer.row{
+    margin: 0;
 }
