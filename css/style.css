@@ -32,7 +32,18 @@ html{
         border-right: 8px solid #f5f5f5;
     }   
 }
-img{
+
+dd.ddlist1 {
+    color: rgb(0,150,136);
+}
+dd.ddlist2 {
+    font-size: 16px !important;
+}
+
+p.roledescription {
+    text-align: justify;
+}
+img {
     border-radius: 10px;
     width: 100%;
 }
@@ -81,6 +92,7 @@ ul li {
 ul.skillset_sectionli li {
     padding: 0;
     list-style-type: disc;
+    line-height: 30px;
 }
 
 .skillset_section {
