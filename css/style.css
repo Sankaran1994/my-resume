@@ -26,12 +26,12 @@ html{
     box-sizing: border-box;
     border-radius: 10px;
 }
-
-.personaldetail_secton{
-    display: inline;
-    border-right: 8px solid #f5f5f5;
+@media screen and (min-device-width: 1024px) {
+    .personaldetail_secton{
+        display: inline;
+        border-right: 8px solid #f5f5f5;
+    }   
 }
-
 img{
     border-radius: 10px;
     width: 100%;
@@ -78,6 +78,14 @@ ul li {
     padding: 0 36px;
 }
 
+ul.skillset_sectionli li {
+    padding: 0;
+    list-style-type: disc;
+}
+
+.skillset_section {
+    padding-left: 36px;
+}
 
 ul.language_section, ul.hobbies_section {
     padding-left: 20px;;
@@ -108,7 +116,7 @@ td {
 
 
 /* 2 ND section */
-.workexperience_section h2 {
+.workexperience_section h2, .educationsection h2 {
     font-size: 30px;
     padding: 16px 0;
     margin: 0;
@@ -132,12 +140,33 @@ i.medium {
     color: white;
 }
 
-span.experience {
+span.experience, span.education{
     position: relative;
     vertical-align: super;
 }
 
+.educationlist {
+    padding: 0 0 0 36px;
+}
 
+.educationlist dt {
+    font-size: 18px;
+    opacity: .60;
+}
+
+.educationlist dd {
+    padding: 5px 0;
+    font-size: 18px;
+}
+.role{
+    padding: 10px 0;
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.rolesection {
+    opacity: .60;
+}
 footer.row{
     margin: 0;
 }
